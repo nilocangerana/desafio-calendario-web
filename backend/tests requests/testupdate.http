@@ -1,0 +1,9 @@
+PUT http://localhost:4000/app/updateEvent/616dcf6c3bd71bf022aaaaeb
+Content-Type: application/json
+
+{
+    "descricao":"evento1",
+    "dataInicio":"2021-10-21T09:00Z",
+    "dataFim":"2021-10-21T10:00Z",
+    "usuario":"admin"
+}

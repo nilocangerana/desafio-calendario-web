@@ -1,0 +1,238 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+.App {
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.back-btn{
+    border: none;
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: 0.4s;
+    color:white;
+    cursor: pointer;
+}
+
+.back-btn:hover{
+    background-color: rgb(104, 5, 5);
+}
+
+/*Header*/
+.page-header {
+    background-color: rgb(127, 214, 255);
+    padding: 30px;
+}
+
+.page-header h1 {
+    font-size: 50px;
+}
+
+.userLoginMsg {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+/*Home Page*/
+.homeListDiv {
+    padding-top:100px;
+    text-align: center;
+    margin:auto;
+    width:30%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.homeList{
+    list-style:none;
+}
+
+.homeList li {
+    background-color: rgba(17, 0, 255, 0.911);
+    color: white;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-decoration: none;
+    transition: 0.4s;
+    border-radius: 5px;
+    padding:10px
+}
+
+.homeList li:hover {
+    background-color: rgba(34, 6, 87, 0.911);
+}
+
+#logout-btn {
+    background-color: rgba(255, 0, 0, 0.911);
+    color: white;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-decoration: none;
+    transition: 0.4s;
+    border-radius: 5px;
+    padding:5px 10px;
+    border: none;
+}
+
+#logout-btn:hover{
+    background-color: rgba(87, 6, 6, 0.911);
+}
+
+/*Create User Page*/
+.createUserPage {
+    padding-top:50px;
+    text-align: center;
+    margin:auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.createUserPage form {
+    margin-bottom: 50px;
+}
+
+.inner-form h2{
+    padding-bottom:50px;
+}
+
+.form-style{
+    display:block;
+    margin:auto;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.form-style input{
+    display:block;
+    margin:auto;
+    width: 50%;
+    padding: 10px 5px;
+    background-color:#e0e0e0;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.form-style label {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.inner-form input[type="submit"]{
+    background-color: rgba(17, 0, 255, 0.911);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: 0.4s;
+    color:white;
+    cursor: pointer;
+}
+
+.inner-form input[type="submit"]:hover{
+    background-color: rgba(34, 6, 87, 0.911);
+}
+
+/*EventsList Page*/
+/*.events-div{
+    border:3px;
+    border-color: black;
+    border-style:solid;
+    background-color: aqua;
+    width:80%;
+    margin:auto;
+}*/
+
+.delete-btn{
+    border: none;
+    background-color: red;
+    padding: 5px 8px;
+    border-radius: 3px;
+    transition: 0.4s;
+    color:white;
+    cursor: pointer;
+}
+
+.delete-btn:hover{
+    background-color: rgb(104, 5, 5);
+}
+
+.edit-btn{
+    background-color: rgb(25, 0, 255);
+    padding: 5px 8px;
+    border-radius: 3px;
+    transition: 0.4s;
+    color:white;
+    cursor: pointer;
+    font-size:12px;
+
+}
+
+.edit-btn:hover{
+    background-color: rgb(19, 6, 65);
+}
+
+.eventListPage {
+    padding-top:50px;
+    text-align: center;
+    margin:auto;
+    font-size: 30px;
+    font-weight:lighter;
+    margin-bottom: 10px;
+}
+
+table {
+    table-layout: fixed;
+    width: 90%;
+    margin:auto;
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
+    resize: both;
+    overflow: auto;
+  }
+
+  thead th:nth-child(1) {
+    width: 30%;
+    background-color: rgb(64, 206, 250);
+    border-bottom: 2px solid black;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+    background-color: rgb(64, 206, 250);
+    border-bottom: 2px solid black;
+  }
+  
+  thead th:nth-child(3) {
+    width: 20%;
+    background-color: rgb(64, 206, 250);
+    border-bottom: 2px solid black;
+  }
+  
+  thead th:nth-child(4) {
+    width: 10%;
+    background-color: rgb(64, 206, 250);
+    border-bottom: 2px solid black;
+  }
+
+  thead th:nth-child(5) {
+    width: 10%;
+    background-color: rgb(64, 206, 250);
+    border-bottom: 2px solid black;
+  }
+  
+  th, td {
+    padding: 20px;
+    border-bottom: 2px solid black;
+  }
+
+.tableDescription{
+    text-align: left;
+}

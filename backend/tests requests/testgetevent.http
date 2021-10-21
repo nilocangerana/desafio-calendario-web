@@ -1,0 +1,2 @@
+GET http://localhost:4000/app/getEvent/616f2695417ae54957f84bbe
+Content-Type: application/json

@@ -1,0 +1,9 @@
+POST http://localhost:4000/app/createNewEvent
+Content-Type: application/json
+
+{
+    "descricao":"evento novo adicionado via post",
+    "dataInicio":"2021-10-17T10:10Z",
+    "dataFim":"2021-10-17T17:00Z",
+    "usuario":"admin"
+}

@@ -1,0 +1,9 @@
+POST http://localhost:4000/app/createNewEvent
+Content-Type: application/json
+
+{
+    "descricao":"evento dois",
+    "dataInicio":"2021-10-14 1:34Z",
+    "dataFim":"2021-10-20 10:00Z",
+    "usuario":"user 1"
+}
